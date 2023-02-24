@@ -96,3 +96,9 @@ extension LoginView: UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
     }
 }
+
+let ali: String = "Mal"
+
+let roma: String = "Krasava"
+
+
