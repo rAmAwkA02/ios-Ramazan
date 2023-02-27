@@ -44,11 +44,13 @@ extension LoginView {
         usernameTextField.translatesAutoresizingMaskIntoConstraints = false
         usernameTextField.placeholder = "Username"
         usernameTextField.delegate = self
+        usernameTextField.autocorrectionType = .no
         
         passwordTextField.translatesAutoresizingMaskIntoConstraints = false
         passwordTextField.placeholder = "Password"
         passwordTextField.isSecureTextEntry = true
         passwordTextField.delegate = self
+        passwordTextField.autocorrectionType = .no
         
         dividerView.translatesAutoresizingMaskIntoConstraints = false
         dividerView.backgroundColor = .secondarySystemFill
@@ -97,8 +99,5 @@ extension LoginView: UITextFieldDelegate {
     }
 }
 
-let ali: String = "Mal"
-
-let roma: String = "Krasava"
 
 
