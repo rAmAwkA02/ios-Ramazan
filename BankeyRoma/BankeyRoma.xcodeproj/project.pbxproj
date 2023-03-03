@@ -12,6 +12,8 @@
 		130F199C29A3413900A0B8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130F199B29A3413900A0B8B9 /* Assets.xcassets */; };
 		130F199F29A3413900A0B8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130F199D29A3413900A0B8B9 /* LaunchScreen.storyboard */; };
 		130F19A929A347B200A0B8B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F19A829A347B200A0B8B9 /* LoginView.swift */; };
+		131FEE5829B2147D00186C25 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FEE5729B2147D00186C25 /* UIViewController+Utils.swift */; };
+		131FEE5A29B215EE00186C25 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FEE5929B215EE00186C25 /* MainViewController.swift */; };
 		1375DD2D29AC84A0007BB8D7 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1375DD2C29AC84A0007BB8D7 /* LocalState.swift */; };
 		1382382729AC6F4100E2DD6F /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382382629AC6F4100E2DD6F /* DummyViewController.swift */; };
 		1382A26E29A7AB4E00A8CFDC /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382A26D29A7AB4E00A8CFDC /* OnboardingContainerViewController.swift */; };
@@ -26,6 +28,8 @@
 		130F199E29A3413900A0B8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		130F19A029A3413900A0B8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		130F19A829A347B200A0B8B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		131FEE5729B2147D00186C25 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		131FEE5929B215EE00186C25 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1375DD2C29AC84A0007BB8D7 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		1382382629AC6F4100E2DD6F /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		1382A26D29A7AB4E00A8CFDC /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
@@ -62,11 +66,12 @@
 		130F199129A3413700A0B8B9 /* BankeyRoma */ = {
 			isa = PBXGroup;
 			children = (
-				1375DD2B29AC8450007BB8D7 /* Utils */,
-				1382A26C29A7AAC400A8CFDC /* Onboarding */,
-				130F19A729A3478700A0B8B9 /* Login */,
 				130F199229A3413700A0B8B9 /* AppDelegate.swift */,
+				130F19A729A3478700A0B8B9 /* Login */,
+				1382A26C29A7AAC400A8CFDC /* Onboarding */,
+				1375DD2B29AC8450007BB8D7 /* Utils */,
 				130F19A629A346CF00A0B8B9 /* Files */,
+				131FEE5929B215EE00186C25 /* MainViewController.swift */,
 			);
 			path = BankeyRoma;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1375DD2C29AC84A0007BB8D7 /* LocalState.swift */,
+				131FEE5729B2147D00186C25 /* UIViewController+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -178,11 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131FEE5829B2147D00186C25 /* UIViewController+Utils.swift in Sources */,
 				130F19A929A347B200A0B8B9 /* LoginView.swift in Sources */,
 				1375DD2D29AC84A0007BB8D7 /* LocalState.swift in Sources */,
 				1382382729AC6F4100E2DD6F /* DummyViewController.swift in Sources */,
 				130F199729A3413700A0B8B9 /* LoginViewController.swift in Sources */,
 				1382A27029A8BCD100A8CFDC /* OnboardingViewController.swift in Sources */,
+				131FEE5A29B215EE00186C25 /* MainViewController.swift in Sources */,
 				130F199329A3413700A0B8B9 /* AppDelegate.swift in Sources */,
 				1382A26E29A7AB4E00A8CFDC /* OnboardingContainerViewController.swift in Sources */,
 			);
